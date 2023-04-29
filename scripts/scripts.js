@@ -7,8 +7,10 @@ let wild_img_styles = window.getComputedStyle(wild_img);
 let wild_property = wild_img_styles.getPropertyValue('opacity');
 let img_fs = document.getElementById("image_zoom");
 
-desc_img.style.height = "1147.5px"
+desc_img.style.height = "750px"
 desc_img.style.objectFit = "cover"
+
+//desc_img.style.height = "1147.5px"
 
 
 
@@ -44,3 +46,24 @@ function View_image() {
     
 }
 
+function digitize(n) {
+    //code here
+    let arr = [];
+    
+    if (n < 0) {
+      console.log("error")
+    }  
+    
+    else if (n.length == 1) {
+      arr.push(n);
+      arr.reverse();
+      console.log(arr)
+    }
+    
+
+  }
+  
+
+
+
+digitize(35231);
