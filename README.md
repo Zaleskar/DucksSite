@@ -1,2 +1,2 @@
-# ZaleskarDuckInfo.github.io
+# Zaleskar.github.io
 practice, portfolio
